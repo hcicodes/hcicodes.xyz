@@ -15,10 +15,6 @@
     color: rgb(220, 220, 220) !important;
 }
 
-.custom-text:active{
-    font-weight: 600 !important;
-    color: rgb(220, 220, 220) !important;
-}
 
 .active{
     font-weight: 800 !important;
