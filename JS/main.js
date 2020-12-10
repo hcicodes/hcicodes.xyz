@@ -1,1 +1,0 @@
-document.getElementsByTagName("p").style.color = "blue"
