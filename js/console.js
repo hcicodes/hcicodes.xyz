@@ -1,4 +1,4 @@
-consoleText(['Hello World.', 'Humberside\'s Coding Club.', 'Join now!'], 'text',['tomato','white','lightblue']);
+consoleText(['Humberside\'s Coding Club.', 'Hello World.', 'Join now!'], 'text',['tomato','white','lightblue']);
 
 function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
