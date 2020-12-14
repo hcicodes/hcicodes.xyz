@@ -25,3 +25,14 @@ body {
 .card{
     margin: auto auto 5% auto;
 }
+
+#my-footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+p.copy-right{
+    text-align: center;
+    color: white;
+}
