@@ -2,16 +2,20 @@ var imgs = document.images,
     len = imgs.length,
     counter = 0;
 
+
 [].forEach.call( imgs, function( img ) {
     if(img.complete)
         incrementCounter();
     else
         img.addEventListener( 'load', incrementCounter, false );
+
 } );
 
 function incrementCounter() {
     counter++;
     if ( counter === len ) {
+        document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
+        document.getElementsByTagName('footer')[0].removeAttribute('hidden')
         anime({
             targets: 'div.fly-up',
             translateY:[
