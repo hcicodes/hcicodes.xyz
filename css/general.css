@@ -1,5 +1,5 @@
 body {
-    padding-top: 120px;
+    padding-top: 10rem;
 }
 
 .join-discord{
@@ -20,4 +20,8 @@ body {
 }
 .join-discord:active{
     top:0.1em;
+}
+
+.card{
+    margin: auto auto 5%;
 }
