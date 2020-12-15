@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e97f1a26-935d-47e8-b34d-ea4f7a8e90d0" name="Default Changelist" comment="" />
+    <list default="true" id="e97f1a26-935d-47e8-b34d-ea4f7a8e90d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/contact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../holiday-hacks" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -74,6 +76,8 @@
       <workItem from="1607987065378" duration="3949000" />
       <workItem from="1607991087185" duration="190000" />
       <workItem from="1607997964544" duration="1436000" />
+      <workItem from="1608000634893" duration="52000" />
+      <workItem from="1608002006760" duration="23000" />
     </task>
     <servers />
   </component>
