@@ -11,11 +11,12 @@ var imgs = document.images,
 
 } );
 
-function incrementCounter() {
+async function incrementCounter() {
     counter++;
     if ( counter === len ) {
         let loading = document.getElementById('boxes')
         if (loading){
+            await sleep(500)
             loading.remove()
         }
         document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
@@ -29,6 +30,10 @@ function incrementCounter() {
             elasticity: 10,
         });
     }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 

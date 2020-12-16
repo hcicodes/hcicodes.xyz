@@ -10,7 +10,7 @@ anime ({
     borderRadius: 50,
     direction: 'alternate',
     easing: 'easeInOutQuad',
-    delay: function() { return anime.random(0, 700); },
+    delay: function() { return anime.random(0, 500); },
     loop: true,
     elasticity: 200
 
