@@ -14,6 +14,10 @@ var imgs = document.images,
 function incrementCounter() {
     counter++;
     if ( counter === len ) {
+        let loading = document.getElementById('boxes')
+        if (loading){
+            loading.remove()
+        }
         document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
         document.getElementsByTagName('footer')[0].removeAttribute('hidden')
         anime({
