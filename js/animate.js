@@ -17,6 +17,7 @@ async function incrementCounter() {
         let loading = document.getElementById('boxes')
         if (loading){
             await sleep(500)
+            anime.remove(loading)
             loading.remove()
         }
         document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
