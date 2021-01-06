@@ -2,6 +2,10 @@ body {
     padding-top: 10rem;
 }
 
+:root > body{
+    background-color: #0e2761;
+}
+
 .join-discord{
     display:inline-block;
     padding:0.7em 1.4em;
