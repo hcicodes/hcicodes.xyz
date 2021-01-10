@@ -12,5 +12,6 @@
     <orderEntry type="library" name="jquery-3.5.1.slim" level="application" />
     <orderEntry type="library" name="animejs" level="application" />
     <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="a76f8913d2" level="application" />
   </component>
 </module>

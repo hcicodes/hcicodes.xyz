@@ -1,9 +1,6 @@
-body {
-    padding-top: 10rem;
-}
-
 html > body{
     background-color: #0e2761;
+    padding-top: 10rem;
 }
 
 .join-discord{
@@ -40,3 +37,9 @@ html > body{
     text-align: center;
     color: white;
 }
+
+.main-img {
+    margin-top: -12rem;
+    margin-left: 16rem;
+}
+
