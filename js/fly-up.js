@@ -20,8 +20,7 @@ async function incrementCounter() {
             anime.remove(loading)
             loading.remove()
         }
-        document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
-        document.getElementsByTagName('footer')[0].removeAttribute('hidden')
+        unhideElements();
         anime({
             targets: 'div.fly-up',
             translateY:[
@@ -31,6 +30,11 @@ async function incrementCounter() {
             elasticity: 10,
         });
     }
+}
+
+function unhideElements(){
+    document.getElementsByClassName('fly-up')[0].removeAttribute('hidden')
+    document.getElementsByTagName('footer')[0].removeAttribute('hidden')
 }
 
 function sleep(ms) {
