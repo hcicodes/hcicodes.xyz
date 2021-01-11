@@ -1,5 +1,5 @@
 function main(){
-    document.getElementsByClassName('anim')[0].removeAttribute('hidden')
+    unhideAnimation();
     let pathEls = document.querySelectorAll("path");
     for (let i = 0; i < pathEls.length; i++) {
         let pathEl = pathEls[i];
@@ -16,7 +16,10 @@ function main(){
             autoplay: true
         });
     }
+}
 
+function unhideAnimation(){
+    document.getElementsByClassName('anim')[0].removeAttribute('hidden')
 }
 
 document.addEventListener("DOMContentLoaded", main)
