@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97f1a26-935d-47e8-b34d-ea4f7a8e90d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HCICodes_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HCICodes_Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gta-hacks/gtahacksimg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gta-hacks/track1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gta-hacks/track2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/gta-hacks/track3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gta-hacks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/gta-hacks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fly-up.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -42,6 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.9" />
@@ -107,6 +108,7 @@
       <workItem from="1608351752763" duration="24000" />
       <workItem from="1609439853310" duration="1627000" />
       <workItem from="1609943955386" duration="13588000" />
+      <workItem from="1610402403345" duration="3222000" />
     </task>
     <servers />
   </component>

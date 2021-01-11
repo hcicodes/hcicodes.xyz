@@ -1,5 +1,5 @@
 #boxes {
-
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@
 #btns button {
     background: white;
     padding: 5px 10px;
-    border: 0px;
+    border: 0;
 }
 
 #btns .fa {
@@ -20,9 +20,6 @@
     color: #0078D7;
 }
 
-body {
-    Padding: 100px 0px 0px 5px;
-}
 .box {
     position: relative;
     width: 60px;

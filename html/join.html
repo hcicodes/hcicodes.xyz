@@ -7,7 +7,7 @@
 
         <link rel="icon" href="../assets/favicon.ico"/>
         <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/style.css">
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -29,7 +29,7 @@
 
     <body>
 
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-sm">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -44,39 +44,41 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text" href="../index.html">Home</a>
+                        <a class="mx-3 custom-nav-item" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text" href="about.html">About</a>
+                        <a class="mx-3 custom-nav-item" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text" href="projects.html">Projects</a>
+                        <a class="mx-3 custom-nav-item" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text" href="events.html">Events</a>
+                        <a class="mx-3 custom-nav-item" href="events.html">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text" href="contact.html">Contact</a>
+                        <a class="mx-3 custom-nav-item" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 custom-text active" href="">Join</a>
+                        <a class="mx-3 nav-item-active" href="join.html">Join</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="container fly-up" hidden>
-            <div class="jumbotron">
-                <h1 style="text-align: center; margin-bottom: 4%">Join HCI Codes!</h1>
-                <img src="../assets/join/discord.svg" class="col-5" style="margin: auto; display: block" alt="Discord"/>
-                <button class="join-discord col" onclick="location.href='https://discord.gg/jEm34m2XgN'">Accept Invite</button>
+        <section>
+            <div class="container fly-up" hidden>
+                <div class="jumbotron">
+                    <h1 style="text-align: center; margin-bottom: 4%">Join HCI Codes!</h1>
+                    <img src="../assets/join/discord.svg" class="col-5 join-img" alt="Discord"/>
+                    <button class="join-discord col" onclick="location.href='https://discord.gg/jEm34m2XgN'">Accept Invite</button>
+                </div>
+                <div class="jumbotron">
+                    <h1 style="text-align: center; margin-bottom: 4%">Follow Our Instagram</h1>
+                    <img src="../assets/join/instagram.svg" class="col-5 join-img" style="margin: auto; display: block" alt="Instagram"/>
+                    <button class="join-discord col" style="background-color: #E533E5;" onclick="location.href='https://www.instagram.com/hcicodes/'">View Account</button>
+                </div>
             </div>
-            <div class="jumbotron">
-                <h1 style="text-align: center; margin-bottom: 4%">Follow Our Instagram</h1>
-                <img src="../assets/join/instagram.svg" class="col-5" style="margin: auto; display: block" alt="Instagram"/>
-                <button class="join-discord col" style="background-color: #E533E5;" onclick="location.href='https://www.instagram.com/hcicodes/'">View Account</button>
-            </div>
-        </div>
+        </section>
 
         <footer class="copy-right" hidden>
             <p>&copy; 2020 HCICodes. All right reserved</p>
@@ -85,7 +87,7 @@
             </a>
         </footer>
 
-        <script src="../js/animate.js"></script>
+        <script src="../js/fly-up.js"></script>
 
     </body>
 </html>

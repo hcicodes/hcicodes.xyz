@@ -1,0 +1,10 @@
+.anim, .anim svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin-top: -5rem;
+}
+.anim path {
+    stroke-width: 2;
+}
