@@ -1,4 +1,5 @@
 function main(){
+    document.getElementsByClassName('anim')[0].removeAttribute('hidden')
     let pathEls = document.querySelectorAll("path");
     for (let i = 0; i < pathEls.length; i++) {
         let pathEl = pathEls[i];
