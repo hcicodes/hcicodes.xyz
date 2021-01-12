@@ -2,7 +2,6 @@ html > body{
     background-color: #0e2761;
 }
 
-
 .join-discord{
     display:inline-block;
     padding:0.7em 1.4em;
@@ -39,10 +38,6 @@ html > body{
     color: white;
 }
 
-.main-img {
-    margin-top: -12rem;
-    margin-left: 16rem;
-}
 
 #events-col{
     margin: auto;
@@ -76,4 +71,9 @@ html > body{
 
 #hack-club{
     margin-top: 3rem;
+}
+
+#about-title{
+    margin-bottom: 4%;
+    color: grey;
 }

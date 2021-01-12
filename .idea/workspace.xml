@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e97f1a26-935d-47e8-b34d-ea4f7a8e90d0" name="Default Changelist" comment="" />
+    <list default="true" id="e97f1a26-935d-47e8-b34d-ea4f7a8e90d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animated-laser-decoration-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animated-laser-decoration-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/projects.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +109,9 @@
       <workItem from="1610407277408" duration="69000" />
       <workItem from="1610407382085" duration="48000" />
       <workItem from="1610407459881" duration="540000" />
+      <workItem from="1610410221988" duration="584000" />
+      <workItem from="1610414318384" duration="9000" />
+      <workItem from="1610424436187" duration="3014000" />
     </task>
     <servers />
   </component>
