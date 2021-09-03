@@ -1,0 +1,37 @@
+@import '../../../../sass/variables';
+@import '../../../../sass/mixins';
+
+.social-btn{
+	background: #ffffff;
+	height: 3.3rem;
+	width: 3.3rem;
+	border-radius: 1.5rem;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	box-shadow: $outward-shadow;
+	position: relative;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.social-btn:active {
+    transition: 0.5s;
+    box-shadow: $inner-shadow;
+}
+
+.social-btn:hover{
+    i {
+        transition: 0.5s;
+        color: $secondary;
+    }
+}
+
+.social-btn i{
+  font-size: 1.75rem;
+  position: absolute;
+  top: 22%;
+  transition: 0.8s;
+  left: 25%;
+  color: #6c757d;
+}

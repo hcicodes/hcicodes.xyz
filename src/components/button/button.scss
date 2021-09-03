@@ -1,0 +1,46 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.mat-btn {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.mat-btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0;
+    padding-top: 0;
+    border-radius: 100%;
+    background-color: rgba(236, 240, 241, .3);
+    transform: translate(-50%, -50%);
+}
+
+.mat-btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+.mat-btn:focus:not(:active)::after {
+    animation: ripple 1s ease-out;
+}
+
+.button {
+    border-radius: 2rem;
+    color: #ffffff;
+    font-size: 1.09rem;
+    padding: 0.8rem 0;
+    user-select: none;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.button:hover {
+    color: #ffffff !important;
+}

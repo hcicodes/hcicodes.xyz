@@ -1,0 +1,27 @@
+@import '../../../../../../sass/variables';
+@import '../../../../../../sass/mixins';
+
+
+.what-we-offer-card {
+    background-color: #FFFFFF;
+    box-shadow: $outward-shadow;
+    border-radius: 2rem;
+    padding: 1.3rem;
+    height: 100%;
+    width: 100%;
+    height: 22rem;
+    margin: auto;
+    line-height: 2;
+    transition: 1s;
+}
+
+.what-we-offer-card:hover {
+    transition: 1s;
+    box-shadow: $inner-shadow;
+}
+
+@media screen and (max-width: 575px) {
+    .what-we-offer-card {
+        width: 85%;
+    }
+}

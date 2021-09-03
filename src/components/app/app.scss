@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+* {
+    font-family: "Fredoka One", serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container {
+    min-width: 80%;
+}
+
+input {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.to-back {
+    z-index: -1;
+}
+
+.v-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner-shadow {
+    box-shadow: $inner-shadow
+}
+
+.outward-shadow {
+    box-shadow: $outward-shadow
+}
+
+.outer-shadow {
+    box-shadow: $outer-shadow;
+}
+
+[role=button]{
+    cursor: pointer;
+}

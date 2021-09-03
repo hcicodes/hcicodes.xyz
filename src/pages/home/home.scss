@@ -1,0 +1,37 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+
+.logo:hover {
+    animation: spin 3s linear infinite;
+}
+
+.circle-1 {
+    position: absolute;
+    z-index: -1;
+    top: 30%;
+    width: 26%;
+    left: 10%;
+}
+
+.circle-2 {
+    position: absolute;
+    z-index: -1;
+    top: 7%;
+    width: 26%;
+    right: 5%;
+}
+
+.nav-spacing-buffer {
+    margin-top: 5rem;
+}
+
+.spacing-buffer {
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-spacing-buffer {
+        margin-top: 2rem;
+    }
+}

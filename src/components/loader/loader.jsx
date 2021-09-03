@@ -1,0 +1,16 @@
+import React from 'react'
+import { Spinner, Modal } from "react-bootstrap";
+
+import './loader.scss'
+
+class Loader extends React.Component {
+    render() {
+        return (
+            <Modal onHide={()=>{}} centered contentClassName='loading-modal' show={this.props.show}>
+                <Spinner className='m-auto' variant={this.props.variant ? this.props.variant : 'primary'} animation="border" />
+            </Modal>
+        )
+    }
+}
+
+export default Loader
