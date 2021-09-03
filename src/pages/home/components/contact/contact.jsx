@@ -101,7 +101,7 @@ class Contact extends React.Component {
                 <Row className='justify-content-around'>
                     <Col lg={4} className='mb-4'>
                         <div className='inner-shadow rounded-circle overflow-hidden'>
-                            <Image className='mb-4 fade-in-out' src={messageimg} fluid />
+                            <Image className='mb-4' src={messageimg} fluid />
                         </div>
                     </Col>
                     <Col lg={5}>

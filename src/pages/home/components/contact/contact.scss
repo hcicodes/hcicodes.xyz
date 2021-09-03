@@ -1,15 +1,6 @@
 @import '../../../../sass/variables';
 @import '../../../../sass/mixins';
 
-@keyframes fade-in-out {
-    0%, 100% { opacity: 0;}
-    50%{ opacity: 1;}
-}
-
-.fade-in-out {
-    animation: fade-in-out 4s infinite;
-}
-
 .contact-form {
     input {
         @include neumorph-input();
