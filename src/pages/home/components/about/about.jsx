@@ -10,7 +10,7 @@ import speakersicon from '../../../../assets/icons/what-we-offer/speakers.svg'
 export default function About() {
     return (
         <>
-            <Title title='What we offer?' subtitle='Our club' mb='2.5rem' />
+            <Title title='What we offer?' subtitle='Our club' mb='1.8rem' />
             <Row className='justify-content-around'>
                 <Col className='mb-5' lg={3}>
                     <WhatWeOfferCard
