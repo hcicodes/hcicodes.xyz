@@ -26,7 +26,7 @@ export default function Landing() {
                     <div className='mt-4'>
                         <Button
                             target='_blank' rel='noreferrer'
-                            to={{ pathname: 'https://discord.gg/gJJaMQax5j' }}
+                            to={{ pathname: 'https://classroom.google.com/c/Mzg5ODQzNzAyMTcy?cjc=swmjvs5' }}
                             className='px-4'
                         >
                             JOIN NOW
