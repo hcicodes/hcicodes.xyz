@@ -9,16 +9,16 @@ export default function Footer() {
             <Container className='text-muted text-center'>
                 <Row className='justify-content-center my-4'>
                     <Col xs={2}>
-                        <SocialBtn href='https://www.instagram.com/hcicodes/' className='fa-2x fab fa-instagram' />
+                        <SocialBtn href='https://www.instagram.com/hci.codes/' className='fa-2x fab fa-instagram' />
                     </Col>
                     <Col xs={2}>
                         <SocialBtn href='https://github.com/hcicodes' className='fa-2x fab fa-github' />
                     </Col>
                     <Col xs={2}>
-                        <SocialBtn href='https://discord.gg/gJJaMQax5j' className='fa-2x fab fa-discord' />
+                        <SocialBtn href='https://classroom.google.com/c/Mzg5ODQzNzAyMTcy?cjc=swmjvs5' className='fa-2x fab fa-google' />
                     </Col>
                 </Row>
-                <p>© Humerside CI Engineering Club. All rights reserved</p>
+                <p>© Humerside CI Coding Club. All rights reserved</p>
             </Container>
         </div>
     )
