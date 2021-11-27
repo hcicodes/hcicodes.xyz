@@ -19,7 +19,7 @@ export default function Execs() {
                         img={christian}
                         role='President'
                         name='Christian Stefaniw'
-                        content='Christian is a senior at HCI. He is very interested in computer programming. Christian hopes to study computer science in University.'
+                        content='Christian is a senior at HCI. He is very interested in computer programming and entrepreneurship. Christian hopes to study computer science or business in University.'
                     />
                 </Col>
                 <Col className='mb-4' lg={3}>
