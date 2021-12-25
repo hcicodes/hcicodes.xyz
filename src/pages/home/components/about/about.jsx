@@ -12,21 +12,21 @@ export default function About() {
         <>
             <Title title='What we offer?' subtitle='Our club' mb='1.8rem' />
             <Row className='justify-content-around'>
-                <Col className='mb-5' lg={3}>
+                <Col className='mb-5' md={3}>
                     <WhatWeOfferCard
                         icon={projecticon}
                         title="Real World Projects"
                         content="Build practical real world projects such as games."
                     />
                 </Col>
-                <Col className='mb-5' lg={3}>
+                <Col className='mb-5' md={3}>
                     <WhatWeOfferCard
                         icon={presentationicon}
-                        title="Coding Presentations"
-                        content="Learn about Computer Science University programs and real world theory of programming projects."
+                        title="Coding Workshops"
+                        content={["Due to our partnership with ", <a target="_blank" href='https://www.hackclub.com'><span className='text-danger'>Hack Club</span></a>, " we are able to offer productive coding workshops at our meetings."]}
                     />
                 </Col>
-                <Col className='mb-5' lg={3}>
+                <Col className='mb-5' md={3}>
                     <WhatWeOfferCard
                         icon={speakersicon}
                         title="Comp Sci Speakers"

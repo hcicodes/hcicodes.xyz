@@ -5,7 +5,7 @@ import Button from '../button/button';
 
 import './nav.scss'
 
-import logo from '../../assets/logos/logo.png'
+import logo from '../../assets/icons/hack-club.svg'
 
 
 export default function TopNav() {
@@ -14,7 +14,7 @@ export default function TopNav() {
             <Navbar.Brand href="/#home">
                 <img
                     src={logo}
-                    width="65"
+                    width="80"
                     height="65"
                     className="d-inline-block align-top logo"
                     alt="HCI Eng"
