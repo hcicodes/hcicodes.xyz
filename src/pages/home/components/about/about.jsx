@@ -23,7 +23,7 @@ export default function About() {
                     <WhatWeOfferCard
                         icon={presentationicon}
                         title="Coding Workshops"
-                        content={["Due to our partnership with ", <a target="_blank" href='https://www.hackclub.com'><span className='text-danger'>Hack Club</span></a>, " we are able to offer productive coding workshops at our meetings."]}
+                        content={["Due to our partnership with ", <a target="_blank" rel="noreferrer" href='https://www.hackclub.com'><span className='text-danger'>Hack Club</span></a>, " we are able to offer productive coding workshops at our meetings."]}
                     />
                 </Col>
                 <Col className='mb-5' md={3}>
