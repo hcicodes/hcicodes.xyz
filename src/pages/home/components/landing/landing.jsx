@@ -20,7 +20,7 @@ export default function Landing() {
                     </h1>
                     <div className='mt-3'>
                         <p className="text-muted">
-                            Learn how to solve real world problems through hands on projects and lots of other fun activities!
+                            Learn the art of computer programming through hands on projects and workshops at HCI Codes!
                         </p>
                     </div>
                     <div className='mt-4'>
